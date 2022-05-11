@@ -1,0 +1,55 @@
+section.repositoryList{
+    margin:40px ;
+    box-sizing: border-box;
+
+    h1{
+        font-size: 35px;
+        margin-bottom: 16px;
+        text-align: center;
+
+        color: white;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    li{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        width: 500px;
+        height: 200px;
+        padding: 30px;
+        border-radius: 5px;
+
+        background: rgb(48, 48, 48);
+        color: white;
+
+        font-size: 16px;
+    }
+
+    p{
+        width: 80%;
+        height: 20%;
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    a{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 10px;
+        padding: 4px;
+        border-radius: 5px;
+
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(172, 0, 143) ;
+    }
+}
